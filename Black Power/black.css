@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family:"black lives";
+    src:url(fonte/aBlackLives.woff);
+}
+
+@font-face{
+    font-family:"devil";
+    src:url(fonte/DevilBreezeBook.woff);
+}
+
+body {
+    background: url(imagens/maos.jpg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logo {
+    display: flex;
+    padding: 15px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logo h1 {
+    font-family: "black lives";
+    font-size: 80px;
+    width: 550px;
+    line-height: 150px;
+}
+
+.power {
+    color: gold;
+}
+
+#menu {
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#menu a {
+    border: 1px solid gold;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#menu a:link,
+a:visited {
+    color: gold;
+    background: black;
+}
+
+#menu a:hover {
+    background: gold;
+    color: black;
+}
+
+/*conteudo*/
+
+#conteudo {
+    display: flex;
+}
+
+/*lateral*/
+
+#lateral {
+    width: 20%;
+    margin: 15px;
+}
+
+#lateral h2 {
+    background: black;
+    color: white;
+    font-family: "black lives";
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.materias {
+    display: flex;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.banner{
+    border-radius: 15px;
+}
+
+.legenda {
+    font-size: 1em;
+    padding-left: 10px;
+}
+
+.legenda a {
+    color: black;
+    text-decoration: none;
+}
+
+.legenda a:hover {
+    text-decoration: underline;
+}
+
+/*cadastro*/
+
+#cadastro{
+    background: #f2f2f2;
+    padding:5px;
+}
+
+#cadastro p{
+    font-size:17px;
+    margin-bottom:5px;
+}
+
+#txt{
+    width:200px;
+    height: 30px;
+}
+
+#botao{
+    background: black;
+    color:#fff;
+    width:100px;
+    margin-top:5px;
+    border-radius: 15px;
+    padding:5px;
+    font-family: "black lives";
+    cursor: pointer;
+}
+
+/*principal*/
+
+#principal {
+    width: 80%;
+    margin:15px 15px 15px 0;
+}
+
+#principal h2{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: "black lives";
+}
+
+#container-noticias{
+    width:100%;
+    margin:0 auto;
+}
+
+.noticia{
+    float:left;
+    background: #f2f2f2;
+    width:386px;
+    height:300px;
+    margin:0 10px 10px 0 ;
+}
+
+.noticia h3{
+    font-family: "black lives";
+}
+
+.noticia p{
+    font-size:0.7em;
+}
+
+.primeira{
+    margin-left:0;
+}
+
+.ultima{
+    margin-right: 0px;
+}
+
+.outdoor{
+    width:100%;
+}
+
+.outdoor img{
+    width:100%;
+    height:230px;
+}
+
+.descricao{
+    width:100%;
+    margin-top:5px;
+    color:black;
+}
+
+.descricao a{
+    font-size: 0.9em;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.descricao a:hover{
+    color:black; 
+    text-decoration: underline;
+}
+
+/*RODAPE*/
+
+#rodape{
+    text-align: center;
+    background: black;
+    color:white;
+}
+
+#rodape h2{
+    font-family:"black lives";
+    color:gold;
+    margin:10px;
+    padding:5px;
+}

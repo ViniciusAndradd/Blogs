@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: black;
+}
+
+#cabecalho {
+    height: 200px;
+    background: black url(imagens/black.jpg) no-repeat center;
+    border: 5px groove gold;
+    border-bottom: black;
+    border-radius: 15px;
+}
+
+#cabecalho h1 {
+    color: lightblue;
+    font-size: 6em;
+    text-align: center;
+}
+
+.M {
+    color: gold;
+}
+
+#menu {
+    margin: 0px auto;
+    width: max-content;
+    color: gold;
+    text-align: center;
+    padding: 5px;
+}
+
+#menu a {
+    margin: 5px 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#menu a:link,
+a:visited {
+    color: lightblue;
+}
+
+#menu a:hover {
+    border-radius: 10px;
+    background-color: gold;
+    color: black;
+}
+
+/*fim cabeçalho*/
+
+/*principal*/
+#principal {
+    margin: 20px auto;
+    width: 1200px;
+    color: #fff;
+}
+
+#saudacao {
+    margin: 5px auto;
+}
+
+#saudacao h1 {
+    text-align: center;
+    margin: 5px;
+    color: gold;
+}
+
+#saudacao p {
+    text-align: center;
+}
+
+/*fim saudacao*/
+
+#marcas {
+    width: 355px;
+    margin: 10px;
+    margin-right: 0px;
+    float: left;
+}
+
+#marcas h2{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 15px;
+    font-size: 2em;
+    text-decoration: underline;
+    border: 3px groove lightblue;
+    border-bottom: black;
+    border-radius: 15px;
+}
+
+#marcas img {
+    width: 100px;
+    height:150px;
+    display:block;
+    margin:10px auto;
+}
+
+#parceria{
+    border: 1px solid lightblue;
+    border-radius: 15px;
+}
+
+/*fim marcas*/
+
+#destaques {
+    margin: 10px;
+    width: 810px;
+    float: right;
+}
+
+#destaques h2 {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 15px;
+    font-size: 2em;
+    text-decoration: underline;
+    border: 3px groove lightblue;
+    border-bottom: black;
+    border-radius: 15px;
+}
+
+.carros,
+.carros2 {
+    display: flex;
+    margin: 10px auto;
+    width: 780px;
+    padding: 10px;
+    border: 1px solid lightblue;
+    border-radius: 15px;
+}
+
+.exemplo img {
+    border-radius: 10px;
+}
+
+.descricao {
+    text-align: center;
+    margin: 10px auto;
+    width: 510px;
+}
+
+.descricao h3 {
+    text-align: center;
+}
+
+.descricao p {
+    margin: 5px;
+}
+
+.link {
+    border: 1px solid lightblue;
+    border-radius: 15px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.link:hover {
+    background: gold;
+    color: black;
+}
+
+#adeus h2 {
+    text-align: center;
+    margin: 10px;
+    color: black;
+    font-size: 2em;
+    text-decoration: underline;
+    border: 3px groove lightblue;
+    border-top: black;
+    border-radius: 15px;
+}
+
+/*fim principal*/
+
+#rodape {
+    color: white;
+    background: black url(imagens/lamboblack.jpg) no-repeat right;
+    height:150px;
+   border:1px solid black;
+}
+
+#rodape h5 {
+    margin-top:75px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}

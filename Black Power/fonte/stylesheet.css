@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'a Black Lives';
+    src: url('aBlackLives.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Devil Breeze';
+    src: url('DevilBreezeBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
