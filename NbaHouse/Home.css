@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #F2F2F2;
+    background: url("imagens/imagens nba/wpp/bolas.jpg");
+    background-size: cover;
+}
+
+
+/*Cabeçalho*/
+
+.col-md-4 .logo img {
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo_site {
+    width: 350px;
+    margin: 0px;
+}
+
+
+.btn-group{
+    width:100%;
+}
+
+.btn-dark:hover {
+    color: white;
+    background-color: #1D428A;
+}
+
+.img_user {
+    width: 50px;
+}
+
+.col-sm-12{
+    justify-content: center;
+    margin:auto;
+}
+
+/*FIM CABEÇALHO*/
+
+/*JOGOS*/
+.jogos {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+/*FIM JOGOS*/
+
+/*SLIDES*/
+.destaques {
+    text-align: center;
+}
+
+.titulo {
+    box-shadow: 7px 7px black;
+    border-radius: 10px;
+    margin: 25px;
+    background-color: #1D428A;
+    color:white;
+}
+
+.titulo_slide {
+    box-shadow: 7px 7px #1D428A;
+    background-color: #C8102E;
+    border-radius: 10px;
+    color: white;
+}
+
+.carousel-item a {
+    background: black;
+    padding: 0px 10;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.carousel-item a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-item a:hover {
+    text-decoration: underline;
+}
+
+#carouselExampleCaptions {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 10px 10px #C8102E;
+    border-radius: 15px;
+}
+
+.d-block {
+    width: 750px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+/*FIM SLIDES*/
+
+/*NEWS*/
+
+#news {
+    margin-top: 50px;
+}
+
+.materias {
+    display: flex;
+    background: #f2f2f2;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 7px 7px gray;
+    border-radius: 15px;
+}
+
+.col-sm-6{
+    padding-right:25px;
+}
+
+.col-sm-6 h1{
+    margin-top: 15px;
+}
+
+.materias:hover {
+    transform: translateY(-5px);
+    transition: 100ms linear;
+    box-shadow: 7px 7px #1D428A;
+    cursor: pointer;
+}
+
+.primeiro {
+    margin-top: 30px;
+}
+
+.segundo:hover {
+    margin-top: 30px;
+    /*transform: translateY(-5px);
+    transition: 100ms linear;
+    box-shadow: 7px 7px #C8102E;
+    cursor: pointer;*/
+}
+
+.banner img {
+    border-radius: 20px;
+}
+
+.legenda {
+    font-size: 1em;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.legenda a {
+    color: black;
+    text-decoration: none;
+}
+
+.legenda a:hover {
+    text-decoration: underline;
+}
+
+/*FIM NEWS*/
+
+/*TEAM_CONF*/
+
+#team_conf {
+    margin-top: 50px;
+
+}
+
+.conf {
+    border-top: 5px double black;
+    padding-top: 50px;
+}
+
+#carouselExampleInterval {
+    width: 300px;
+    height: 200px;
+    margin: 15px auto;
+    box-shadow: 10px 10px #C8102E;
+    border-radius: 15px;
+}
+
+#carouselExampleInterval2 {
+    width: 300px;
+    height: 200px;
+    margin: 15px auto;
+    box-shadow: 10px 10px #1D428A;
+    border-radius: 15px;
+}
+
+.posters {
+    width: 300px;
+    height: 200px;
+}
+
+/*FIM TEAM_CONF*/
+
+/*.col-md-4 img {
+    width: 200px;
+    height: 100px;
+} */
+
+footer {
+    background: lightgray;
+}
+
+#publi {
+    padding: 35px;
+}
+
+#publi img {
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.jogos2 {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
