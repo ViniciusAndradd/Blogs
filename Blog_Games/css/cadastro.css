@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(/imagens/mosaicogamespb.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+#cadastro {
+    width: 500px;
+    height: 500px;
+    background-color: #0FC5EF;
+    text-align: center;
+    border: 7px double black;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#cadastro h1,
+h3,
+form,
+h6,
+button {
+    margin-top: 25px;
+}
+
+#cadastrar {
+    margin-top: 15px;
+}
+
+input {
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 3px 3px black
+}
+
+button {
+    padding: 5px;
+    background-color: black;
+    color: gold;
+    border-radius: 15px;
+    width: 120px;
+}
+
+button:hover {
+    background-color: gold;
+    color: black;
+    transform: translateY(-5px);
+    transition: 100ms linear;
+    box-shadow: 0px 5px black;
+    cursor: pointer;
+}

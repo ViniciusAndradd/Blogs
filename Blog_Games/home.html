@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" media="(min-width: 375px)" href="css/home.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- JS -->
+    <script src="js/validacoes.js" defer></script>
+    
+    <title>Let's Gaming</title>
+  </head>
+  <body onload="hello()">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="d-none d-md-block col-md-12 col-lg-3 .d-none .d-sm-block">
+                    <img src="imagens/logo.jpg" width="100%" height="170px" alt="Logo">
+                </div>
+                <div class="col-12 col-sm-12 col-md-9 col-lg-6">
+                    <div id="menu">
+                        <a href="home.html">Home</a>
+                        <a href="news.html">News</a>
+                        <a href="releases.html">Releases</a>
+                        <a href="gameplay.html">Gameplay</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-3">
+                    <div id="login">
+                        <nav class="navbar navbar-expand- navbar-light ">
+                            <div class="container-fluid">
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="primeiro" href="login.html">Login</a>
+                                    <a class="primeiro" onclick="sair()" href="login.html">Exit</a>
+                                </div>
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="marcas">
+            <a href="https://www.xbox.com/pt-BR/">Microsoft</a> |
+            <a href="https://www.playstation.com/pt-br/">Sony</a> |
+            <a href="https://www.nintendo.com/pt-br/">Nintendo</a> |
+            <a href="https://www.apple.com/br/">Apple</a> |
+            <a href="https://www.amazon.com.br/">Amazon</a> 
+        </div>
+        <div id="cumprimento">
+            <p></p>
+        </div>
+    </header>
+
+    <section id="conteudo">
+        <div class="container cont">
+            <div class="row">
+                <div class="d-none d-lg-block col-lg-3 lista">
+                    <h1>Most Played</h1>
+                    <div class="lista_populares">
+                        <ul>
+                            <li>
+                                <a href="">Fortnite</a>
+                                <img src="imagens/fortnite.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Final Fantasy XIV: A Realm Reborn</a>
+                                <img src="imagens/Final-Fantasy-XIV-A-Realm-Reborn-Wallpaper-3-1.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Valorant</a>
+                                <img src="imagens/valorant.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">World of Warcraft</a>
+                                <img src="imagens/WOW.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">League of Legends</a>
+                                <img src="imagens/LOL.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Free Fire</a>
+                                <img src="imagens/free-fire.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Minecraft</a>
+                                <img src="imagens/mine.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Call of Duty: Warzone</a>
+                                <img src="imagens/warzone.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Counter-Strike: Global Offensive</a>
+                                <img src="imagens/csgo.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Apex Legends</a>
+                                <img src="imagens/apex.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 news">
+                    <h1>News</h1>
+                    <div class="card mb-3">
+                        <img src="imagens/dualsense.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><a href="">PlayStation: See the unboxing of the new DualSense Edge controller</a></h5>
+                          <p class="card-text">Some time ago, Sony confirmed the launch of its new controller for PlayStation 5 , the DualSense Edge . We already had the opportunity to test it , but now we have not only the controller to show but also its box, and this makes the perfect opportunity for an unboxing video.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                      <div class="card mb-3">
+                        <img src="imagens/elden.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><a href="">Brazil Game Awards: See list of all award winners</a></h5>
+                          <p class="card-text">The Brazil Game Awards already have the results of the 2022 winners. Among all the games, Elden Ring, from FromSoftware, won the main prize when it was chosen as the 2022 Game of the Year.
+
+                            The independent jury, made up of different vehicles, content producers and video game critics, chose the best games of the year in different categories. In addition to the newest soulslike from FromSoftware, God of War Ragnarök and the Brazilian Phobia – St. Dinfna Hotel also stood out.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                      <div class="card mb-3">
+                        <img src="imagens/gamesvr.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><a href="">PSVR 2 has over 30 titles confirmed for launch</a></h5>
+                          <p class="card-text">Sony officially confirmed the PlayStation VR2 launch window games until March 2023. There are 13 new titles that were not announced for the platform before, among them is Tetris Effect: Connected and Rez Infinite.
+
+                            As detailed on PlayStation.Blog , PlayStation VR2 will launch on February 22, 2023, and over 30 games will be available on the platform before the end of March, if nothing changes.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                      <div class="card mb-3">
+                        <img src="imagens/toty.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><a href="">FIFA 23: After record voting, EA Sports announces the Team of the Year with names like Messi and Mbappé</a></h5>
+                          <p class="card-text">This Wednesday (19), EA Sports confirmed the FIFA 23 Official Team of the Year (TOTY) . With record- breaking voting , millions of fans around the world chose those among the best athletes to join the hall of fame at the TOTY Final XI in 2022.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                      <div class="card mb-3">
+                        <img src="imagens/warzoneadiado.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><a href="">Call of Duty: Warzone 2 Season 2 is delayed; check release date</a></h5>
+                          <p class="card-text">Due to launch in the first week of February, Season 2 of Call of Duty: Warzone 2.0 and Call of Duty: Modern Warfare 2 have been slightly delayed, Activision confirmed via Twitter . Before, the official release date was February 1st. According to the note, the new content will arrive on February 15.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="d-none d-lg-block col-lg-3 lista">
+                    <h1>Most Waited</h1>
+                    <div class="lista_populares">
+                        <ul>
+                            <li>
+                                <a href="">Dead Space Reamake</a>
+                                <img src="imagens/Dead-Space.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Forspoken</a>
+                                <img src="imagens/forspoken.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Dead Island 2</a>
+                                <img src="imagens/deadisland2.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Hogwarts Legacy</a>
+                                <img src="imagens/hogwarts.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Wild Hearts</a>
+                                <img src="imagens/wild.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Resident Evil 4 Remake</a>
+                                <img src="imagens/Resident-Evil-Series.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">The Legend Of Zelda: Tears of The Kingdom</a>
+                                <img src="imagens/zelda.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Final Fantasy XVI</a>
+                                <img src="imagens/finalfantasy.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Star Wars Jedi: Jedi Survivor</a>
+                                <img src="imagens/jedi.jpg" alt="">
+                            </li>
+                            <li>
+                                <a href="">Marvel’s Spider-Man 2</a>
+                                <img src="imagens/Spider-man2.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+            <p>
+                &#169;Copyright 2023 - Vinicius de Andrade
+            </p>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

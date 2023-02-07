@@ -1,0 +1,231 @@
+@media (min-width: 375px) {
+
+    /*gerais*/
+    * {
+        margin: 0px;
+        padding: 0px;
+        color: black;
+    }
+
+    /* Cabeçalho */
+
+    header {
+        background-color: #120314;
+    }
+
+    .container {
+        background-color: #120314;
+    }
+
+    /* Menu */
+
+    .col-lg-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 55px;
+        background-color: black;
+    }
+
+    #menu a {
+        text-decoration: none;
+        background-color: #0FC5EF;
+        padding: 15px 20px;
+        color: black;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    #menu a:hover {
+        background-color: #120314;
+        color: #0FC5EF;
+        transform: translateY(-5px);
+        transition: 100ms linear;
+        box-shadow: 0px 5px gold;
+        cursor: pointer;
+    }
+
+    .col-12 #menu {
+        margin: 10px 0px;
+    }
+
+    #cumprimento{
+        text-align: center;
+        background-color: black;
+    }
+
+    /* Login */
+
+    .col-lg-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 55px;
+    }
+
+    #login a {
+        text-decoration: none;
+        background-color: #0FC5EF;
+        padding: 15px 20px;
+        color: black;
+        border-right: 1px double black;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    #login a:hover {
+        background-color: #120314;
+        color: #0FC5EF;
+        transform: translateY(-5px);
+        transition: 100ms linear;
+        box-shadow: 0px 5px gold;
+        cursor: pointer;
+    }
+
+    .col-12 #login {
+        border-bottom: 10px;
+        
+    }
+
+    .primeiro{
+        margin-top:5px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .navbar{
+        background-color:#0FC5EF;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .navbar-toggler-icon{
+        background-color: #0FC5EF;
+    }
+
+    /* Marcas */
+
+    #marcas {
+        text-align: center;
+        background-color: #0FC5EF
+    }
+
+    #marcas a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #marcas a:hover {
+        text-decoration: underline;
+        color: black;
+    }
+
+    /* Conteúdo */
+
+    #conteudo {
+        background-color: #f2f2f2;
+    }
+
+    .cont {
+        background-color: white;
+        width: 100%
+    }
+
+    #conteudo h1 {
+        text-align: center;
+        text-shadow: 2px 2px #0FC5EF;
+    }
+
+    .lista {
+        display: block;
+        text-align: center;
+        height: auto;
+    }
+
+    .lista_populares ul {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .lista_populares li {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .lista_populares li:hover {
+        background-color: white;
+        color: #0FC5EF;
+        transform: translateY(-5px);
+        transition: 100ms linear;
+        box-shadow: 0px 5px #0FC5EF;
+        cursor: pointer;
+    }
+
+    .lista_populares a {
+        text-decoration: none;
+        color: black;
+        font-size: 1em;
+    }
+
+    .lista_populares a:hover {
+        text-decoration: underline;
+        color: #0FC5EF;
+    }
+
+    .lista_populares img {
+        width: 250px;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .news {
+        display: block;
+        background-color: #f2f2f2;
+    }
+
+    .card-body a {
+        cursor: pointer;
+        color: black;
+        text-decoration: none;
+    }
+
+    .card-body a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+        color: #0FC5EF;
+    }
+
+    /* RODAPE */
+
+    footer {
+        text-align: center;
+        background-color: #120314;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    footer p {
+        color: #0FC5EF;
+    }
+}

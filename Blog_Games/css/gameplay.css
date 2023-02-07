@@ -1,0 +1,177 @@
+@media (min-width: 375px){
+    /*gerais*/
+    * {
+        margin: 0px;
+        padding: 0px;
+        color: black;
+    }
+
+    body{
+        background-color: #f2f2f2;
+    }
+
+    /* Cabeçalho */
+
+    header {
+        background-color: #120314;
+    }
+
+    /* Menu */
+
+    .col-lg-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 55px;
+        background-color: black;
+    }
+
+    #menu a {
+        text-decoration: none;
+        background-color: #0FC5EF;
+        padding: 15px 20px;
+        color: black;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    #menu a:hover {
+        background-color: #120314;
+        color: #0FC5EF;
+        transform: translateY(-5px);
+        transition: 100ms linear;
+        box-shadow: 0px 5px gold;
+        cursor: pointer;
+    }
+
+    .col-12 #menu {
+        margin: 10px 0px;
+    }
+
+    /* Login */
+
+    .col-lg-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 55px;
+    }
+
+    #login a {
+        text-decoration: none;
+        background-color: #0FC5EF;
+        padding: 15px 20px;
+        color: black;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    #login a:hover {
+        background-color: #120314;
+        color: #0FC5EF;
+        transform: translateY(-5px);
+        transition: 100ms linear;
+        box-shadow: 0px 5px gold;
+        cursor: pointer;
+    }
+
+    .col-12 #login {
+        border-bottom: 10px;
+    }
+
+    /* Marcas */
+
+    #marcas {
+        text-align: center;
+        background-color: #0FC5EF
+    }
+
+    #marcas a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #marcas a:hover {
+        text-decoration: underline;
+        color: black;
+    }
+
+    /* Conteudo Principal*/
+
+    
+
+    #conteudo h1{
+        text-align: center;
+        text-shadow: 2px 2px #0FC5EF;
+        color:black;
+    }
+
+
+    .perfil_influencer{
+        display:flex;
+    }
+
+    .perfil_influencer h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:10px;
+    }
+
+    .perfil_influencer h4 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .perfil_influencer h4 a:hover {
+        text-decoration: underline;
+        color:#0FC5EF;
+    }
+
+    .perfil_influencer img{
+        width:50px;
+        border-radius:100px;
+    }
+
+    .streamer{
+        margin-bottom:15px;
+    }
+
+    .gameplay {
+        margin-top:10px;
+    }
+
+    .gameplay iframe{
+        border-radius:15px;
+        box-shadow:7px 7px #0FC5EF
+    }
+    /* RODAPE */
+
+    footer {
+        text-align: center;
+        background-color: #120314;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    footer p {
+        color: #0FC5EF;
+    }
+    
+}
