@@ -1,0 +1,64 @@
+body {
+    background-color: #f2f2f2;
+    background-image: url('cerveja.jpg');
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+#cabecalho {
+    background-color: black;
+    color:#f2f2f2;
+    padding:10px;
+    border-radius:15px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+p{
+    margin-top:0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+#menu {
+    margin:35px;
+}
+
+#menu a {
+    text-decoration: none;
+    background-color: black;
+    padding: 15px 20px;
+    color: white;
+    height: 100%;
+    border-radius: 15px;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    background-color: red;
+    padding: 15px 20px;
+    color: white;
+    height: 100%;
+    border-radius: 15px;
+}
+
+#conteudo table {
+    width: 100%;
+    background-color: black;
+    color:#f2f2f2;
+    border-radius:15px;
+}
